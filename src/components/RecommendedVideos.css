@@ -1,0 +1,39 @@
+.recommendedVideos {
+  flex: 0.85;
+}
+
+.recommendedVideos__categories {
+  display: flex;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+  border-top: 1px solid #e0e0e0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.recommendedVideos__categories > div {
+  border-radius: 16px;
+  background-color: #e8e8e8;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  margin-right: 1rem;
+}
+
+.videos {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+}
+
+.category.current_category {
+  background-color: #909090;
+  color: #ffffff;
+}
+
+div.category {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
